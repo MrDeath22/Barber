@@ -1,0 +1,153 @@
+@font-face {
+   font-family: "Catamaran";
+   src: url("/fonts/Catamaran-Regular.ttf");
+}
+
+@font-face {
+   font-family: "Catamaran-bold";
+   src: url("/fonts/Catamaran-Medium.ttf");
+}
+
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+body {
+   font-family: "Catamaran";
+}
+
+h1,h2,h3 {
+   font-family: "Catamaran-bold";
+   color: #163561;
+}
+
+a {
+   text-decoration: none;
+}
+
+ul {
+   list-style: none;
+}
+
+span {
+   color: #FBB400;
+}
+
+p {
+   color: #153461;
+   font-size: 25px;
+   line-height: 150.6%;
+}
+
+.history-div {
+   align-items: center;
+}
+
+.history-title h2 {
+   margin-bottom: 40px;
+   font-size: 70px;
+}
+
+.history-title p {
+   margin-bottom: 30px;
+   border-radius: 20px;
+}
+
+.history-title a {
+   font-size: 20px;
+   display: inline-block;
+   padding: 15px 40px;
+   margin-top: 60px;
+   border-radius: 20px;
+   color: #fff;
+   background: #99BAED;
+}
+
+.services-div {
+   padding-top: 135px;
+   padding-bottom: 200px;
+}
+
+.services-div h2 {
+   margin-bottom: 80px;
+   font-size: 70px;
+   line-height: 116.6%;
+   text-align: center;
+}
+
+.services-item:hover {
+   padding: 30px;
+   border-radius: 20px;
+   border-bottom: none;
+   background-color:  #99BAED;
+}
+
+.services-item:hover p {
+   color: #fff;
+}
+
+.services-item:hover h3{
+   color: #fff;
+}
+
+.services-item {
+   text-align: center;
+   width: 410px;
+   height: 530px;
+   padding: 30px;
+   margin-right: 30px;
+   border-radius: 20px;
+   border-bottom: 5px solid #99BAED;
+   background-color:  #FAFBFF;
+   transition: all 0.4s ease;
+}
+
+.services-item h3 {
+   font-weight: bold;
+   font-size: 45px;
+   margin-bottom: 60px;  
+}
+
+.services-item p {
+   width: 360px;
+   font-size: 25px;
+   line-height: 150.6%;
+   margin-bottom: 70px;
+   
+}
+
+.services-item img {
+   padding: 20px;
+   margin-top: 20px;
+   margin-bottom: 60px;
+   border-bottom: 3px solid #99BAED;
+   border-radius: 20px;
+   background-color: #E5ECFE;
+}
+
+.col-4 .services-item2 img {
+   padding: 5px;
+}
+
+.galery-div h2 {
+   font-size: 70px;
+   text-align: center;
+   margin-bottom: 110px;
+}
+
+.galery-item {
+   justify-content: center;
+}
+
+.galery-div a {
+   font-size: 20px;
+   display: inline-block;
+   padding: 15px 40px;
+   margin-top: 60px;
+   margin-left: 600px;
+   border-radius: 20px;
+   color: #fff;
+   background: #99BAED;
+}
